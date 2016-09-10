@@ -1,0 +1,41 @@
+<!doctype html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <link href="https://fonts.googleapis.com/css?family=Pavanam|VT323|Pacifico" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="balancer.css">
+  <script src="balancer.js"></script>
+  <head>
+    <title>balancer</title>
+  </head>
+<body>
+    <div class = "background-container">
+      <div class = "main-container">
+        <div class = "title">
+          <span class = "art-title">art</span> and <span class = "code-title">code</span> balancer
+        </div>
+        <hr>
+        <div class = "content-container">
+          <div class = "content-container-column">
+            <div class = "column-label-art">art time</div>
+            <div class = "column-time" id="art-time"> </div>
+            <div class = "deficit-icon" id="deficit-art"></div>
+            <button class = "button" id="start-art" type="button">art</button>
+          </div>
+          <div class = "content-container-column">
+            <div class = "column-label-deficit">deficit</div>
+            <div id="current-deficit"> </div>
+            <div class = "deficit-icon" id="deficit-none"></div>
+            <button class = "button" id="stop-timer" type="button">stop</button>
+          </div>
+          <div class = "content-container-column">
+            <div class = "column-label-code">code time</div>
+            <div class = "column-time" id="coding-time"> </div>
+            <div class = "deficit-icon" id="deficit-code"></div>
+            <button class = "button" id="start-coding" type="button">code</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>

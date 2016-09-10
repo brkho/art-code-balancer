@@ -1,0 +1,116 @@
+/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Press Start 2P', monospace;*/
+
+body {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(240, 240, 240),
+    rgb(240, 240, 240) 1px,
+    rgb(250, 250, 250) 1px,
+    rgb(250, 250, 250) 6px);
+}
+
+.background-container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 200px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(240, 240, 240);
+  padding: 20px;
+  padding-bottom: 5px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  align-self: center;
+  font-size: 30px;
+}
+
+.art-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  margin-right: 4px;
+}
+
+.code-title {
+  font-family: 'VT323', monospace;
+  font-size: 36px;
+  position:relative;
+  top: -1px;
+}
+
+.button {
+  margin-top: 10px;
+  width: 130px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.content-container-column {
+  text-align: center;
+  width: 150px;
+}
+
+.column-label-art {
+  font-family: 'Pacifico', cursive;
+  font-size: 12px;
+  margin-bottom: -4px;
+}
+
+.column-label-code {
+  font-family: 'VT323', monospace;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: -2px;
+}
+
+.column-label-deficit {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.button {
+  font-family: 'Pavanam', sans-serif;
+}
+
+#current-deficit {
+  margin-top: -2px;
+  font-size: 14px;
+}
+
+.deficit-icon {
+  font-size: 12px;
+}
+
+.column-time {
+  font-size: 16px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(230, 230, 230);
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
