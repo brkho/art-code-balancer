@@ -111,6 +111,8 @@ function startArtTimer() {
     currentTimer = 'art';
     startTimer();
   }
+  $('#start-art').prop("disabled", true);
+  $('#start-coding').prop("disabled", false);
 }
 
 function startCodingTimer() {
@@ -119,9 +121,13 @@ function startCodingTimer() {
     currentTimer = 'coding';
     startTimer();
   }
+  $('#start-art').prop("disabled", false);
+  $('#start-coding').prop("disabled", true);
 }
 
 function stopTimer() {
+  $('#start-art').prop("disabled", false);
+  $('#start-coding').prop("disabled", false);
   if (intervalId !== null) {
     clearInterval(intervalId);
     intervalId = null;
