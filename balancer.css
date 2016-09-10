@@ -2,6 +2,8 @@
 /*font-family: 'Press Start 2P', monospace;*/
 
 body {
+  margin: 0px;
+  padding: 0px;
   background-image: repeating-linear-gradient(
     -45deg,
     rgb(240, 240, 240),
@@ -96,11 +98,20 @@ body {
 }
 
 .deficit-icon {
+  color: #DE2C0C;
   font-size: 12px;
 }
 
 .column-time {
   font-size: 16px;
+}
+
+.footer {
+    background-color: #CF2C0C;
+    position: fixed;
+    bottom: 0;
+    height: 6px;
+    width: 100%;
 }
 
 hr {

@@ -8,34 +8,36 @@
     <title>balancer</title>
   </head>
 <body>
-    <div class = "background-container">
-      <div class = "main-container">
-        <div class = "title">
-          <span class = "art-title">art</span> and <span class = "code-title">code</span> balancer
+  <div class = "background-container">
+    <div class = "main-container">
+      <div class = "title">
+        <span class = "art-title">art</span> and <span class = "code-title">code</span> balancer
+      </div>
+      <hr>
+      <div class = "content-container">
+        <div class = "content-container-column">
+          <div class = "column-label-art">art time</div>
+          <div class = "column-time" id="art-time"> </div>
+          <div class = "deficit-icon" id="deficit-art"></div>
+          <button class = "button" id="start-art" type="button">art</button>
         </div>
-        <hr>
-        <div class = "content-container">
-          <div class = "content-container-column">
-            <div class = "column-label-art">art time</div>
-            <div class = "column-time" id="art-time"> </div>
-            <div class = "deficit-icon" id="deficit-art"></div>
-            <button class = "button" id="start-art" type="button">art</button>
-          </div>
-          <div class = "content-container-column">
-            <div class = "column-label-deficit">deficit</div>
-            <div id="current-deficit"> </div>
-            <div class = "deficit-icon" id="deficit-none"></div>
-            <button class = "button" id="stop-timer" type="button">stop</button>
-          </div>
-          <div class = "content-container-column">
-            <div class = "column-label-code">code time</div>
-            <div class = "column-time" id="coding-time"> </div>
-            <div class = "deficit-icon" id="deficit-code"></div>
-            <button class = "button" id="start-coding" type="button">code</button>
-          </div>
+        <div class = "content-container-column">
+          <div class = "column-label-deficit">deficit</div>
+          <div id="current-deficit"> </div>
+          <div class = "deficit-icon" id="deficit-none"></div>
+          <button class = "button" id="stop-timer" type="button">stop</button>
+        </div>
+        <div class = "content-container-column">
+          <div class = "column-label-code">code time</div>
+          <div class = "column-time" id="coding-time"> </div>
+          <div class = "deficit-icon" id="deficit-code"></div>
+          <button class = "button" id="start-coding" type="button">code</button>
         </div>
       </div>
     </div>
+  </div>
+</div>
+<div class = "footer"> </div>
 </div>
 </body>
 </html>
