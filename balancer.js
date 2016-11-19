@@ -75,10 +75,13 @@ function updatePage() {
 }
 
 function formatSecondsToTime(seconds_to_convert) {
-  const hours = parseInt( seconds_to_convert / 3600 ) % 24;
-  const minutes = parseInt( seconds_to_convert / 60 ) % 60;
+  const days = parseInt(seconds_to_convert / 86400);
+  const hours = parseInt(seconds_to_convert / 3600) % 24;
+  const minutes = parseInt(seconds_to_convert / 60) % 60;
   const seconds = seconds_to_convert % 60;
-  return (hours < 10 ? "0" + hours : hours) + ":" +
+  const daysString = days == 0 ? '' : (days < 10 ? "0" + days : days) + ":";
+  return daysString +
+      (hours < 10 ? "0" + hours : hours) + ":" +
       (minutes < 10 ? "0" + minutes : minutes) + ":" +
       (seconds  < 10 ? "0" + seconds : seconds);
 }
